@@ -40,7 +40,7 @@ class RedditBot(object):
 			time.sleep(2) # Following reddit's rules
 
 def main(target):
-	bot = RedditBot('username', 'password', target) # Specify username and password
+	bot = RedditBot('spyjit304', 'Winner25', target) # Specify username and password
 	try:
 		bot.run()
 	except:
